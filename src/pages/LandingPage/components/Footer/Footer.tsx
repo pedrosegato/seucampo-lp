@@ -1,22 +1,24 @@
-import ResponsiveDiv from '../../../components/Responsive/ResponsiveDiv';
+"use client";
+
+import ResponsiveDiv from "../../../components/Responsive/ResponsiveDiv";
 
 export default function Footer() {
 	return (
-		<footer className='bg-green-950 py-10 text-white text-center flex flex-col gap-2'>
+		<footer className="bg-green-950 py-10 text-white text-center flex flex-col gap-2">
 			<ResponsiveDiv>
-				<div className='flex flex-row gap-2 mx-auto'>
+				<div className="flex flex-row gap-2 mx-auto">
 					<p>
 						<a
-							href='https://www.instagram.com/seucampo'
-							target='_blank'
+							href="https://www.instagram.com/seucampo"
+							target="_blank"
 						>
 							Instagram
 						</a>
 					</p>
 					<p>
 						<a
-							href='mailto:seucampo@gmail.com'
-							target='_blank'
+							href="mailto:seucampo@gmail.com"
+							target="_blank"
 						>
 							Email
 						</a>

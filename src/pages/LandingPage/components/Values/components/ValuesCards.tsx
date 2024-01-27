@@ -1,60 +1,53 @@
-'use client';
+"use client";
 
-import ResponsiveTitle from '@/pages/components/Responsive/ResponsiveTitle';
-import { scroller } from 'react-scroll';
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 type Props = {
-	left?: boolean;
-	img: string;
-	imgalt: string;
 	title: string;
-	content: string;
+	content: string | JSX.Element | JSX.Element[];
+	imgurl?: string;
+	imgalt?: string;
+	left?: boolean;
 };
 
-export default function ValuesCards({
-	left,
-	img,
-	imgalt,
+export default function AboutMeCards({
 	title,
 	content,
+	imgurl,
+	imgalt,
+	left,
 }: Props) {
 	return (
-		<motion.div
-			initial={{ opacity: 0, y: 50 }}
+		<motion.section
+			initial={{ opacity: 0, y: 100 }}
 			whileInView={{ opacity: 1, y: 0 }}
 			viewport={{ once: true }}
 			transition={{ duration: 0.5 }}
-			className={`flex gap-10 flex-col md:flex-row ${
-				left && 'md:flex-row-reverse'
+			className={`flex gap-10 flex-col lg:flex-row text-center md:text-left ${
+				left && "lg:flex-row-reverse"
 			}`}
 		>
-			<div className='md:w-[50%]'>
+			<div className="lg:w-[50%]">
 				<img
-					className='h-[100%] rounded-[1em] mx-auto object-cover object-center resize'
-					src={img}
+					className="h-[100%] rounded-[1em] mx-auto object-cover object-center resize"
+					src={imgurl}
 					alt={imgalt}
 				/>
 			</div>
-			<div className='flex flex-col justify-between md:w-[50%] gap-5'>
-				<div className='flex flex-col gap-5'>
-					<ResponsiveTitle styles='break-words !text-left'>
+			<div className="flex flex-col justify-between items-center md:items-start lg:w-[50%] gap-5">
+				<div className="flex flex-col gap-5">
+					<h3 className="text-2xl font-bold text-emerald-700">
 						{title}
-					</ResponsiveTitle>
-					<p className='text-gray-500 text-lg'>{content}</p>
+					</h3>
+					<p className="text-gray-500">{content}</p>
 				</div>
-				<button
-					className='bg-green-600 hover:bg-green-700 active:bg-green-800 rounded px-4 py-2 font-bold w-fit text-white text-sm'
-					onClick={() =>
-						scroller.scrollTo('cta', {
-							smooth: true,
-							duration: 500,
-						})
-					}
+				<a
+					href="#cta"
+					className="bg-green-600 hover:bg-green-700 active:bg-green-800 rounded px-4 py-2 font-bold w-fit text-white"
 				>
-					Tenho interesse
-				</button>
+					Tenho interesse!
+				</a>
 			</div>
-		</motion.div>
+		</motion.section>
 	);
 }

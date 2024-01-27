@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "seu-campo",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -14,7 +14,6 @@
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
-    "react-scroll": "^1.9.0",
     "validator": "^13.11.0"
   },
   "devDependencies": {
