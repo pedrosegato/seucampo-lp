@@ -15,8 +15,8 @@ export const ContactForm = () => {
   return (
     <>
       <form className="flex flex-col gap-3" action={formAction}>
-        <fieldset className="flex flex-row gap-5">
-          <div className="flex flex-col gap-2 w-[50%]">
+        <fieldset className="flex flex-col md:flex-row gap-5">
+          <div className="flex flex-col gap-2 w-full md:w-[50%]">
             <p className="font-bold text-gray-500">E-mail</p>
             <input
               type="email"
@@ -27,7 +27,7 @@ export const ContactForm = () => {
               required
             />
           </div>
-          <div className="flex flex-col gap-2 w-[50%]">
+          <div className="flex flex-col gap-2 w-full md:w-[50%]">
             <p className="font-bold text-gray-500">Telefone</p>
             <input
               type="tel"
