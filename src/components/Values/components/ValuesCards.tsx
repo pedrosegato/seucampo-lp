@@ -34,8 +34,7 @@ export default function AboutMeCards({
 					alt={imgalt}
 					width={1280}
 					height={720}
-					objectFit="contain"
-					className=""
+					className="rounded-lg"
 				/>
 			</div>
 			<div className="flex flex-col justify-between items-center md:items-start lg:w-[50%] gap-5">
