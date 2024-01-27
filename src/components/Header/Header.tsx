@@ -1,7 +1,7 @@
 "use client";
 
-import ResponsiveDiv from "../../../components/Responsive/ResponsiveDiv";
 import Navbar from "../Navbar/Navbar";
+import ResponsiveDiv from "../Responsive/ResponsiveDiv";
 
 export default function Header() {
   return (
