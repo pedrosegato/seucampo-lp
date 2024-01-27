@@ -1,12 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 type Props = {
 	title: string;
 	content: string | JSX.Element | JSX.Element[];
-	imgurl?: string;
-	imgalt?: string;
+	imgurl: string;
+	imgalt: string;
 	left?: boolean;
 };
 
@@ -23,15 +24,18 @@ export default function AboutMeCards({
 			whileInView={{ opacity: 1, y: 0 }}
 			viewport={{ once: true }}
 			transition={{ duration: 0.5 }}
-			className={`flex gap-10 flex-col lg:flex-row text-center md:text-left ${
+			className={`flex gap-10 flex-col lg:flex-row text-center md:text-left items-center ${
 				left && "lg:flex-row-reverse"
 			}`}
 		>
 			<div className="lg:w-[50%]">
-				<img
-					className="h-[100%] rounded-[1em] mx-auto object-cover object-center resize"
+				<Image
 					src={imgurl}
 					alt={imgalt}
+					width={1280}
+					height={720}
+					objectFit="contain"
+					className=""
 				/>
 			</div>
 			<div className="flex flex-col justify-between items-center md:items-start lg:w-[50%] gap-5">
