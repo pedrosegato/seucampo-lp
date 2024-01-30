@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 		url: "https://seucampo.com.br",
 		images: [
 			{
-				url: "public/SeuCampoFull.png",
+				url: "https://cdn.discordapp.com/attachments/359821204816658435/1201693719376433233/SeuCampo.png",
 				alt: "Logo SeuCampo",
 				width: 1200,
 				height: 630,
