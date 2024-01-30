@@ -18,10 +18,10 @@ export const metadata: Metadata = {
 		url: "https://seucampo.com.br",
 		images: [
 			{
-				url: "/public/SeuCampoFull.png",
+				url: "public/SeuCampoFull.png",
 				alt: "Logo SeuCampo",
-				width: 800,
-				height: 600,
+				width: 1200,
+				height: 630,
 			},
 		],
 		locale: "pt_BR",
