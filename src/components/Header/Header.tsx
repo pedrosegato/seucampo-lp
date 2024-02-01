@@ -11,7 +11,10 @@ export default function Header() {
         <h1 className="text-white text-2xl break-words md:text-4xl uppercase font-bold">
           Descomplique a reserva do seu campo de futebol! Proporcione a melhor experiência para seus clientes ao reservar sem esforço.
         </h1>
-        <a href="#cta" className="bg-green-600 hover:bg-green-700 active:bg-green-800 rounded px-3 py-1 font-bold uppercase text-xl w-fit">
+        <a
+          href="#cta"
+          className="initial-cta bg-green-600 hover:bg-green-700 active:bg-green-800 rounded px-3 py-1 font-bold uppercase text-xl w-fit"
+        >
           Quero descomplicar
         </a>
       </ResponsiveDiv>
