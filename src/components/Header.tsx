@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ResponsiveSection from "./ResponsiveSection";
+import Link from "next/link";
 
 export default function Header() {
 	return (
@@ -22,6 +23,12 @@ export default function Header() {
 						Descomplique, cresça e vença!
 					</p>
 				</div>
+				<Link
+					href="#cta"
+					className="bg-green-600 hover:bg-green-700 active:bg-green-800 rounded px-4 py-2 font-bold w-fit text-white text-lg text-center mx-auto initial-cta"
+				>
+					Descomplicar
+				</Link>
 			</ResponsiveSection>
 		</header>
 	);
