@@ -3,7 +3,7 @@ import Accordion from "./Accordion";
 
 export default function FAQ() {
 	return (
-		<ResponsiveSection
+		<ResponsiveSection id="faq"
 			className="gap-10"
 			color="bg-zinc-100"
 		>

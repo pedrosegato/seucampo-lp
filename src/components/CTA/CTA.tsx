@@ -27,7 +27,10 @@ export default function CTA() {
 		};
 	}, []);
 	return (
-		<ResponsiveSection className="gap-10">
+		<ResponsiveSection
+			id="cta"
+			className="gap-10"
+		>
 			<h2 className="text-2xl font-bold text-center text-emerald-700">
 				Descubra o poder do SeuCampo para impulsionar o seu negócio!
 			</h2>

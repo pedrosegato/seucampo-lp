@@ -19,7 +19,10 @@ const parentVariants: Variants = {
 
 export default function Advantages() {
 	return (
-		<ResponsiveSection className="gap-10">
+		<ResponsiveSection
+			id="values"
+			className="gap-10"
+		>
 			<h2 className="text-2xl font-bold text-center text-emerald-700">
 				Quais ferramentas o SeuCampo me proporciona?
 			</h2>

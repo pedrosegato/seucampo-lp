@@ -4,7 +4,10 @@ import Other from "../Preview/Preview";
 
 export default function About() {
 	return (
-		<ResponsiveSection className="gap-10">
+		<ResponsiveSection
+			id="about"
+			className="gap-10"
+		>
 			<h2 className="text-center text-2xl font-bold text-emerald-700">
 				O que é o SeuCampo?
 			</h2>
