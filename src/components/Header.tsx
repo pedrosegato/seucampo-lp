@@ -3,7 +3,7 @@ import ResponsiveSection from "./ResponsiveSection";
 
 export default function Header() {
 	return (
-		<header className="flex flex-col text-white py-10 bg-gradient-to-r from-green-800 to-green-950">
+		<header className="flex flex-col text-white bg-gradient-to-r from-green-800 to-green-950">
 			<ResponsiveSection className="gap-10">
 				<Image
 					src="/SeuCampoFull.png"

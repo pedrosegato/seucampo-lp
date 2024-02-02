@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ResponsiveSection from "../ResponsiveSection";
+import Other from "../Preview/Preview";
 
 export default function About() {
 	return (
@@ -7,7 +8,7 @@ export default function About() {
 			<h2 className="text-center text-2xl font-bold text-emerald-700">
 				O que é o SeuCampo?
 			</h2>
-			<div className="grid grid-cols-1 lg:grid-cols-2 justify-between gap-10 items-center">
+			<div className="grid grid-cols-1 lg:grid-cols-2 justify-between gap-10 items-center border-b border-gray-300 pb-10">
 				<Image
 					src="/UserPage.webp"
 					width={1280}
@@ -30,6 +31,7 @@ export default function About() {
 					</p>
 				</div>
 			</div>
+			<Other />
 		</ResponsiveSection>
 	);
 }
