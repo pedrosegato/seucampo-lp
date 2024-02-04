@@ -6,16 +6,16 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "SeuCampo - Reserve seu campo sem dor de cabeça online!",
+  title: "SeuCampo - Solução para agendamento de quadras society online!",
   description:
-    "Transforme a gestão do seu campo de futebol com facilidade e eficiência! Agora, você pode reservar campos instantaneamente e impulsionar seus lucros enquanto elimina as dores de cabeça do agendamento manual. Faça parte dessa revolução através de uma plataforma intuitiva que simplifica a vida tanto dos proprietários quanto dos clientes!",
+    "Agendar pelo WhatsApp é do passado! Somos a solução simples e completa para agendamento de quadras online, foque no seu negócio e elimine as dores de cabeça do agendamento manual.",
   creator: "SeuCampo",
   keywords:
-    "seu campo, futebol, futsal, quadra, campo, jogar, alugar, campeonato, brasileiro, agendamento de campos, futebol, reserva de campos, dono de campo",
+    "aluguel de quadra, agendamento de quadra society, agendamento de quadra esportiva, agendar society, seu campo, futebol, futsal, quadra, campo, jogar, alugar, campeonato, brasileiro, agendamento de campos, futebol, reserva de campos, dono de campo",
   openGraph: {
-    title: "SeuCampo - Reserve seu campo sem dor de cabeça online!",
+    title: "SeuCampo - Solução para agendamento de quadras society online!",
     description:
-      "Transforme a gestão do seu campo de futebol com facilidade e eficiência! Agora, você pode reservar campos instantaneamente e impulsionar seus lucros enquanto elimina as dores de cabeça do agendamento manual. Faça parte dessa revolução através de uma plataforma intuitiva que simplifica a vida tanto dos proprietários quanto dos clientes!",
+      "Agendar pelo WhatsApp é do passado! Somos a solução simples e completa para agendamento de quadras online, foque no seu negócio e elimine as dores de cabeça do agendamento manual.",
     url: "https://seucampo.com.br",
     images: [
       {
