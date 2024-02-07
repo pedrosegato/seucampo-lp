@@ -46,7 +46,7 @@ export default function Advantages() {
 				<AdvantagesCard
 					icon={<User />}
 					title="Página do cliente"
-					description="Com a configuração da sua página, os clientes podem agendar horários on-line, pelo sistema, eliminando a necessidade de marcar via WhatsApp ou aguardar a resposta do cliente."
+					description="Com a configuração da sua página, os clientes podem agendar horários online, pelo sistema, eliminando a necessidade de marcar via WhatsApp ou aguardar a resposta do cliente."
 				/>
 			</motion.div>
 		</ResponsiveSection>

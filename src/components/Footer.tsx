@@ -8,12 +8,14 @@ export default function Footer() {
 				<p>&copy; SeuCampo, 2024</p>
 				<div className="flex flex-row gap-5 justify-center">
 					<Link
+						className="underline text-blue-500"
 						href="https://www.instagram.com/seucampo"
 						target="_blank"
 					>
 						Instagram
 					</Link>
 					<Link
+						className="underline text-blue-500"
 						href="mailto:seucampo@gmail.com"
 						target="_blank"
 					>

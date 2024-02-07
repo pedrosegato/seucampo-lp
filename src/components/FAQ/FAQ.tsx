@@ -3,9 +3,9 @@ import Accordion from "./Accordion";
 
 export default function FAQ() {
 	return (
-		<ResponsiveSection id="faq"
+		<ResponsiveSection
+			id="faq"
 			className="gap-10"
-			color="bg-zinc-100"
 		>
 			<h2 className="text-center text-2xl font-bold text-emerald-700">
 				Perguntas frequentes

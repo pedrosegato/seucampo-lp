@@ -9,11 +9,11 @@ export default function Home() {
 	return (
 		<div className="flex flex-col gap-10 min-h-screen justify-between text-gray-700">
 			<Header />
-			<main className="flex flex-col gap-10 mb-auto">
+			<main className="flex flex-col gap-5 mb-auto">
 				<About />
 				<Advantages />
-				<FAQ />
 				<CTA />
+				<FAQ />
 			</main>
 			<Footer />
 		</div>
